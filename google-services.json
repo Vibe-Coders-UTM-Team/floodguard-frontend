@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "15594891846",
+    "firebase_url": "https://floodguard-plus-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "floodguard-plus",
+    "storage_bucket": "floodguard-plus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15594891846:android:16d60bf57c85a428207847",
+        "android_client_info": {
+          "package_name": "com.example.floodguard_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15594891846-aia8vhlme2kqkibdp8itoosiridt331d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgAKOQRMO4xuDyD7vYn92OdRS25WbuMyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15594891846-aia8vhlme2kqkibdp8itoosiridt331d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

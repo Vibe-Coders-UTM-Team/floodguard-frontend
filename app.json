@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "FloodGuard+",
+    "slug": "floodguard-plus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-location",
+      "expo-image-picker",
+      "expo-dev-client"
+    ],
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyD-aa5zz1VH_20FwK8-XJGgV79tfgdUpBY"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.floodguardplus.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photos to allow you to upload images for flood reports.",
+        "NSCameraUsageDescription": "This app needs access to your camera to take photos for flood reports.",
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to accurately report flood locations.",
+        "UIBackgroundModes": ["location", "fetch"]
+      }
+    },
+    "android": {
+      "package": "com.floodguardplus.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD-aa5zz1VH_20FwK8-XJGgV79tfgdUpBY"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
